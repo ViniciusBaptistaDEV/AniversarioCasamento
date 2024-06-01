@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(136, 184, 214);
+}
+
+header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 20px;
+}
+
+.titulo {
+    padding-bottom: 20px;
+}
+
+.titulo h1 {
+    font-size: 35px;
+}
+
+.titulo h2 {
+    font-style: italic;
+    font-size: 23px;
+    border-bottom: solid 4px gray;
+}
+
+.abraMensagem h2 {
+    font-size: 20px;
+    padding-top: 18px;
+}
+
+.secaoMensagem, .secaoFotos, .mensagemFuturo {
+    display: none;
+    padding: 16px;
+    background-color: rgb(99, 154, 188);
+}
+
+#tituloMensagemPrincipal {
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.mensagemPrincipal {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px;
+    flex-direction: column; /* Empilha os itens verticalmente */ 
+}
+
+.mensagemPrincipal #mensagemAgradecimento {
+    margin-top: 16px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: 60px;
+}
+
+#sectionMensagemTeAmo{
+    padding: 16px 0;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    text-decoration: underline;
+}
+
+#felizesFotos {
+    padding: 16px 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.listaFotos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listaFotos li {
+    display: flex;
+    list-style: none;
+    max-width: 31%;
+    margin-bottom: 24px;
+    margin-left: 20px;
+}
+
+.listaFotos img {
+    max-width: 100%;
+}
+
+#mensagemFinalFotos {
+margin-top: 30px;
+}
+
+.mensagemFuturoPrincipal {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px;
+    flex-direction: column; /* Empilha os itens verticalmente */ 
+}
+
+.mensagemFuturoPrincipal #mensagemFinal {
+    padding: 16px;
+}
+
+#sectionMensagemTeAmo2 {
+    padding: 16px 0;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#buttonInicio, #buttonFotos, #buttonFotosFuturas {
+    padding: 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: transform 0.1s ease; /* Adiciona uma transição suave */
+}
+
+#buttonInicio:hover, #buttonFotos:hover, #buttonFotosFuturas:hover {
+    background-color: rgb(8, 70, 8);
+}
+
+#buttonInicio:active, #buttonFotos:active, #buttonFotosFuturas:active, #buttonEncerrar:active {
+    transform: scale(0.95); /* Reduz ligeiramente o tamanho do botão ao clicar */
+}
+
+#buttonEncerrar {
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: transform 0.1s ease; /* Adiciona uma transição suave */
+}
+
+#buttonEncerrar:hover {
+    background-color: white;
+    color: red
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
