@@ -142,11 +142,11 @@ margin-top: 30px;
     background-color: rgb(8, 70, 8);
 }
 
-#buttonInicio:active, #buttonFotos:active, #buttonFotosFuturas:active, #buttonEncerrar:active {
+#buttonInicio:active, #buttonFotos:active, #buttonFotosFuturas:active, #buttonEncerrar:active, #buttonVoltarInicio:active {
     transform: scale(0.95); /* Reduz ligeiramente o tamanho do botão ao clicar */
 }
 
-#buttonEncerrar {
+#buttonEncerrar, #buttonVoltarInicio {
     padding: 8px;
     background-color: red;
     color: white;
@@ -157,11 +157,17 @@ margin-top: 30px;
     font-weight: bold;
     font-size: 15px;
     transition: transform 0.1s ease; /* Adiciona uma transição suave */
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
-#buttonEncerrar:hover {
+#buttonEncerrar:hover, #buttonVoltarInicio:hover {
     background-color: white;
     color: red
+}
+
+#buttonVoltarInicio {
+    margin-left: 20px;
 }
 
 footer {

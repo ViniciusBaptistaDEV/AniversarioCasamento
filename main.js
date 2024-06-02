@@ -17,6 +17,12 @@ $(document).ready(function(){
         $('.mensagemFuturo').slideDown(6000);
     });
 
+    $('#buttonVoltarInicio').click(function(){
+        $('.secaoFotos').slideUp(2000);
+        $('.mensagemInicio').slideDown(6000);
+    });
+    
+
     $('#buttonEncerrar').click(function(){
         $('.mensagemFuturo').slideUp(3000);
         $('.mensagemInicio').slideDown(3000);
